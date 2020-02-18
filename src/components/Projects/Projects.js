@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, Fragment } from "react";
 import "./Projects.scss";
 import { Image } from "react-bootstrap";
-import { TimelineLite, Power3 } from "gsap";
+import { TimelineLite, Power3 } from "gsap/dist/gsap";
 import Intro from "components/Intro/Intro";
 import { ReactComponent as CasesNext } from "assets/arrow-right.svg";
 import { ReactComponent as LeftArrow } from "assets/arrow-left.svg";

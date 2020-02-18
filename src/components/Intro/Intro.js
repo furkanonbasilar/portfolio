@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./Intro.scss";
-import { TimelineLite, Power3 } from "gsap";
+import { TimelineLite, Power3 } from "gsap/dist/gsap";
 import { greenSockHelper } from "helpers/greenSockHelper";
 
 const Intro = () => {

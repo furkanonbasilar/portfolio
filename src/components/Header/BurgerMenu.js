@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
-import { TimelineLite, Power3 } from "gsap";
+import { TimelineLite, Power3 } from "gsap/dist/gsap";
 import "./BurgerMenu.scss";
 
 const BurgerMenu = ({ menuState }) => {
