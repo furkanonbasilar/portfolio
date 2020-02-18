@@ -1,0 +1,28 @@
+.navbar_height {
+  height: 80px;
+}
+
+.cross {
+  height: 30px;
+  width: 30px;
+}
+
+.self-burger-button {
+  width: 50px;
+  border: none;
+  z-index: 1001;
+  cursor: pointer;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+  span {
+    margin-bottom: 0.35rem;
+    background: black;
+    height: 4px;
+    border-radius: 50px;
+    width: 100%;
+    display: block;
+  }
+}

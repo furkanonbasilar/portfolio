@@ -1,0 +1,135 @@
+.project_title {
+  color: white;
+  mix-blend-mode: difference;
+  position: relative;
+  z-index: 200;
+}
+
+.project_details {
+  padding-top: 30px;
+  width: 60%;
+  height: calc(60vh - 80px);
+  p {
+    line-height: 28px;
+    text-align: justify;
+  }
+}
+
+.project_content {
+  overflow: hidden;
+  position: relative;
+  font-size: 46px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  height: 57px;
+
+  div {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+  }
+}
+.image_categories {
+  display: flex;
+  height: 40vh;
+  margin-left: -240.5px;
+  margin-right: -239.5px;
+  img {
+    width: 33.33vw;
+    height: 100%;
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.case-navigation {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 6;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.cases-arrow {
+  background: rgba(0, 0, 0, 0.4);
+  height: 72px;
+  z-index: 3;
+  width: 72px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    color: white;
+    height: 28px;
+    width: 28px;
+  }
+  &.disabled-arrow {
+    opacity: 0.3;
+  }
+}
+
+.row {
+  margin: 0;
+  .case {
+    position: relative;
+    background: black;
+    cursor: pointer;
+    &:hover {
+      .case-image {
+        opacity: 0.4 !important;
+      }
+    }
+    .case-details {
+      width: 33.3333vw;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px;
+      box-sizing: border-box;
+      z-index: 1;
+      position: relative;
+
+      span {
+        margin-top: 156px;
+        font-size: 1.6rem;
+        opacity: 0.8;
+        color: white;
+        font-weight: 600;
+      }
+      h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 3.4rem;
+        width: 100%;
+        margin-top: 16px;
+        color: white;
+      }
+    }
+    .case-image {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: absolute;
+      opacity: 0.65;
+      transition: 0.4s cubic-bezier(0.6, -0.05, 0.1, 0.99);
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

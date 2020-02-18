@@ -1,0 +1,50 @@
+.intro {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  pointer-events: none;
+}
+
+.intro-top {
+  height: 60%;
+  position: relative;
+}
+
+.intro-bottom {
+  height: 40%;
+
+  position: relative;
+}
+
+.intro-shape {
+  height: 100%;
+  width: 33.33333vw;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  &:nth-child(2) {
+    left: 33.33333vw;
+  }
+  &:nth-child(3) {
+    left: 66.6666vw;
+  }
+}
+
+.intro-mask {
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: #000;
+  overflow: hidden;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
