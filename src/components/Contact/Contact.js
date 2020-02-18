@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Contact.scss";
 import { Form, Button } from "react-bootstrap";
-import { TimelineLite, Power3, Bounce } from "gsap";
+import { TimelineLite, Power3, Bounce } from "gsap/dist/gsap";
 
 const Contact = () => {
   const contactRef = useRef(null);

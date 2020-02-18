@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, Fragment } from "react";
 import { Image, Row, Col } from "react-bootstrap";
 import "./MainPage.scss";
-import { TimelineLite, Power3 } from "gsap";
+import { TimelineLite, Power3 } from "gsap/dist/gsap";
 import { Link } from "react-router-dom";
 
 const MainPage = () => {

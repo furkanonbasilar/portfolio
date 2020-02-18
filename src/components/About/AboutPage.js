@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Image, Row, Col } from "react-bootstrap";
 import "./AboutPage.scss";
 import CSSRulePlugin from "gsap/CSSRulePlugin";
-import { TimelineLite, Power3 } from "gsap/gsap-core";
+import { TimelineLite, Power3 } from "gsap/dist/gsap";
 
 const AboutPage = () => {
   const container = useRef(null);
