@@ -11,10 +11,6 @@ const Projects = ({ history }) => {
 
   const tl = new TimelineLite({ delay: 0.7 });
 
-  const navigateHandler = link => {
-    history.push(link);
-  };
-
   useEffect(() => {
     const firstProjectHeadline = projectRef.current.children[0].children[0];
     const secondProjectHeadline = firstProjectHeadline.nextSibling;

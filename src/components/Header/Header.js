@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, ReactDOM } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import BurgerMenu from "./BurgerMenu";
 import "./Header.scss";
 import { Navbar, Nav } from "react-bootstrap";
@@ -11,12 +11,6 @@ const Header = ({ history }) => {
     clicked: null
   });
   const [disabled, setDisabled] = useState(false);
-
-  // const setButtonDisabled = () => {
-  //   buttonRef.current.children[0].setAttributeNode(
-  //     document.createAttribute("disabled")
-  //   );
-  // };
 
   const disableMenu = () => {
     setDisabled(!disabled);
