@@ -35,7 +35,7 @@ const MainPage = () => {
 
     // paragraphs
     tl.staggerFrom(
-      [headlineFirst.children, headlineSecond.children],
+      [headlineFirst.children],
       1,
       { y: 55, ease: Power3.easeOut, delay: 0.8 },
       0.15,
@@ -70,7 +70,7 @@ const MainPage = () => {
           <Image src={require("../../assets/furkan1.jpg")} />
         </div>
         <div className="photo_2 image">
-          <Image src={require("../../assets/furkan2.jpeg")} />
+          <Image src={require("../../assets/furkan2.jpg")} />
         </div>
       </Col>
     </Row>

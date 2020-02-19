@@ -37,7 +37,7 @@ const Contact = () => {
     <>
       <div className="contact-form" ref={contactRef}>
         <h1>CONTACT</h1>
-        <div className="under-line"></div>
+        <div className="contact-underline"></div>
         <h3>You can ask me anything :)</h3>
         <Form ref={formRef}>
           <Form.Group>

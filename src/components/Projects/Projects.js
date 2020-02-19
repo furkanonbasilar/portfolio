@@ -45,11 +45,11 @@ const Projects = ({ history }) => {
         <p>
           I found some prepared projects from global resources and I achieved to
           create something unique. First i started to develop e-commerce
-          web-sites. In my first web-site I started from a template and totaly
-          improvised the rest. After that i joined to OSF Academy. There I
+          web-sites. In my first web-site, I started from a template and totally
+          improvised the rest. After that I joined to OSF Academy. There I
           developed my second e-commerce web-site. I learnt how to use react
-          more deeply. And built responsive layout for different size of screens
-          with scss.
+          more deeply. And developed responsive layout for different size of
+          screens with scss.
         </p>
       </div>
       <div className="image_categories">

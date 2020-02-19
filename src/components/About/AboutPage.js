@@ -43,7 +43,7 @@ const AboutPage = () => {
       { opacity: 0, stagger: 0.5, delay: 0.3 },
       "Start"
     );
-    tl.from(aboutDetails, 0.7, { y: 100, opacity: 0, delay: 0.7 }, "Start");
+    tl.from(aboutDetails, 0.7, { y: 150, opacity: 0, delay: 0.7 }, "Start");
     tl.from(
       [firstHexagon, secondHexagon, thirdHexagon, fourthHexagon],
       1,
@@ -59,11 +59,7 @@ const AboutPage = () => {
   return (
     <div className="about-container" ref={container}>
       <div className="image-container">
-        <Image
-          ref={image}
-          height="100%"
-          src={require("../../assets/furkan3.jpeg")}
-        />
+        <Image ref={image} src={require("../../assets/furkan3.jpg")} />
       </div>
       <section ref={sectionRef}>
         <h1 className="about-header">About Me</h1>
@@ -75,7 +71,7 @@ const AboutPage = () => {
           working some of the technologies like C#, Java, React.js, Node.js
           etc.. I am a geek which is currently in love with the games and music
           guru. To understand my point, look at my projects closely. For the
-          further information and for all questions feel free to contact me.
+          further information and questions feel free to contact me.
         </p>
         <Row ref={hexagonRef}>
           <Col className="col-6 icons_col">
@@ -86,9 +82,7 @@ const AboutPage = () => {
               </svg>
             </div>
             <p className="icon-title">Fast</p>
-            <p>
-              Fast load times and lag free interaction, my highest priority.
-            </p>
+            <p>Fast load times is my highest priority.</p>
           </Col>
           <Col className="col-6 icons_col">
             <div className="hexagon">
