@@ -12,7 +12,6 @@ const MainPage = () => {
 
   useEffect(() => {
     const headlineFirst = content.current.children[0].children[0];
-    const headlineSecond = headlineFirst.nextSibling;
     const contentP = content.current.children[1];
     const contentLink = content.current.children[2];
     const photo1 = image.current.children[0];
@@ -51,16 +50,12 @@ const MainPage = () => {
       <Col ref={content} className="col-6 about_me">
         <h1>
           <div className="content-line">
-            <div>WHO IS THIS</div>
-          </div>
-          <div className="content-line">
-            <div>Furkan ONBAŞILAR</div>
+            <div>WHO AM I</div>
           </div>
         </h1>
         <p className="details_me">
-          Hello. My name is Furkan ONBAŞILAR. I have graduated from Celal Bayar
-          University in 2019 of September. I like to coding, listening music and
-          playing games.
+          Hello. My name is Furkan ONBAŞILAR. I like to coding, listening music
+          and playing games.
         </p>
         <Link to="/about" className="more_about_me">
           More about me

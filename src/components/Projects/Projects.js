@@ -43,19 +43,13 @@ const Projects = ({ history }) => {
           </div>
         </h1>
         <p>
-          I found projects on dribbble web-site and targeted to make them live.
-          Thats how i started to build e-commerce web-sites. I built my first
-          e-commerce web-site from
-          <a
-            href="https://dribbble.com/shots/4828084-Shopping-Cart-UI"
-            target="_blank"
-          >
-            this design
-          </a>
-          and improvised the rest. After that i joined to OSF Academy. There i
-          built my second e-commerce web-site. I learnt how to use react more
-          deeply. And built responsive layout for different size of screens with
-          scss.
+          I found some prepared projects from global resources and I achieved to
+          create something unique. First i started to develop e-commerce
+          web-sites. In my first web-site I started from a template and totaly
+          improvised the rest. After that i joined to OSF Academy. There I
+          developed my second e-commerce web-site. I learnt how to use react
+          more deeply. And built responsive layout for different size of screens
+          with scss.
         </p>
       </div>
       <div className="image_categories">
@@ -70,7 +64,7 @@ const Projects = ({ history }) => {
         <div className="row">
           <div className="case">
             <div className="case-details">
-              <h2>First E-Commerce Project</h2>
+              <h2>First e-Commerce</h2>
             </div>
             <div className="case-image">
               <Image src={require("../../assets/ecommerce2.png")} />
@@ -79,7 +73,7 @@ const Projects = ({ history }) => {
           <a href="https://my-ecommerce-website.herokuapp.com/" target="_blank">
             <div className="case">
               <div className="case-details">
-                <h2>Academy Project</h2>
+                <h2>Academy</h2>
               </div>
               <div className="case-image">
                 <Image src={require("../../assets/ecommerce.png")} />
@@ -88,7 +82,7 @@ const Projects = ({ history }) => {
           </a>
           <div className="case">
             <div className="case-details">
-              <h2>Dotabuff Project</h2>
+              <h2>Dotabuff</h2>
             </div>
             <div className="case-image">
               <Image src={require("../../assets/dotabuff.png")} />

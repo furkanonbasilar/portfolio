@@ -38,7 +38,7 @@ const Contact = () => {
       <div className="contact-form" ref={contactRef}>
         <h1>CONTACT</h1>
         <div className="under-line"></div>
-        <h3>Have a question or want to work together?</h3>
+        <h3>You can ask me anything :)</h3>
         <Form ref={formRef}>
           <Form.Group>
             <Form.Control type="text" placeholder="Name" />

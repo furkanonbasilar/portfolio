@@ -66,13 +66,16 @@ const AboutPage = () => {
         />
       </div>
       <section ref={sectionRef}>
-        <h1 className="about-header">About</h1>
+        <h1 className="about-header">About Me</h1>
         <div className="about-underline"></div>
         <p className="about-details">
-          I have graduated from Celal Bayar University in September. Since this
-          i am trying to improve myself in Frontend Developer. I have used
-          React.js and Node.js. Take a look to my projects. And feel free to
-          contact if you have a question or want to work with me.
+          I graduated from Celal Bayar University in September 2019 as a
+          Computer Engineer. Since from the beginning I am trying to learn
+          latest technologies and trying to cross the borders. I started to
+          working some of the technologies like C#, Java, React.js, Node.js
+          etc.. I am a geek which is currently in love with the games and music
+          guru. To understand my point, look at my projects closely. For the
+          further information and for all questions feel free to contact me.
         </p>
         <Row ref={hexagonRef}>
           <Col className="col-6 icons_col">
