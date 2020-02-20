@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "924a9818eb7f5ddbe8fcbaa02b838a03",
+    "revision": "ea9e02ed96c993c2ccebc24ea88eef6a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "6ba69f070bef2d2566c6",
-    "url": "/portfolio/static/css/main.b87984a0.chunk.css"
+    "revision": "a1aeb01d470694e92125",
+    "url": "/portfolio/static/css/main.c39ead0c.chunk.css"
   },
   {
     "revision": "602b58b627b5d2d015d6",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.fb3080ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ba69f070bef2d2566c6",
-    "url": "/portfolio/static/js/main.9aa9de77.chunk.js"
+    "revision": "a1aeb01d470694e92125",
+    "url": "/portfolio/static/js/main.249d6890.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
+  },
+  {
+    "revision": "fbb21171188b5afe11265ccd75a5b29d",
+    "url": "/portfolio/static/media/angle-right-solid.fbb21171.svg"
   },
   {
     "revision": "f9a44e1ccb9f44cd4de1da8fe7f6f4d8",
